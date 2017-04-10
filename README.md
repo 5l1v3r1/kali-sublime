@@ -2,7 +2,6 @@
 
 I develop on Kali Linux and use Sublime Text as my primary development tool. I have some preferences and packages that I like to use so I created this to automate this process.
 
--
 
 #### Install
 
@@ -23,7 +22,7 @@ I develop on Kali Linux and use Sublime Text as my primary development tool. I h
 
 
 #### Uninstall
--
+
  ```
  sudo ./uninstall_sublime.sh
  ```
