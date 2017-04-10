@@ -1,0 +1,5 @@
+export NORMAL="\e[21m"
+export BOLD="\e[1m"
+export UNDERLINE="\e[4m"
+export BLINK="\e[5m"
+export TICK="\u2713"
