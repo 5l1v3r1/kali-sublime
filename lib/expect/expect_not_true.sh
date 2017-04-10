@@ -8,10 +8,10 @@ expect_not_true() {
 	if [ "${actual}" == "${expected}" ]; then
 		echo -e "[${RED}FAILED${CLEAR}] ${FUNCNAME[1]}"
 		echo -e
-		echo -e "  ${MAGENTA}File.....: ${basefile}, Line: ${baseline}${CLEAR}"
+		echo -e "  ${MAGENTA}File.........: ${basefile}, Line: ${baseline}${CLEAR}"
 		echo -e
-		echo -e "  ${CYAN}Expected.: ${expected}${CLEAR}"
-		echo -e "  ${RED}Actual...: ${actual}${CLEAR}"
+		echo -e "  ${CYAN}Not Expected.: ${expected}${CLEAR}"
+		echo -e "  ${RED}Actual.......: ${actual}${CLEAR}"
 		echo -e
 		return 1
 	fi
