@@ -6,13 +6,13 @@ expect_not_true() {
 	local expected="true"
 	
 	if [ "${actual}" == "${expected}" ]; then
-		alert "[${RED}FAILED${CLEAR}] ${FUNCNAME[1]}"
-		alert
-		alert "  ${MAGENTA}File.....: ${basefile}, Line: ${baseline}${CLEAR}"
-		alert
-		alert "  ${CYAN}Expected.: ${expected}${CLEAR}"
-		alert "  ${RED}Actual...: ${actual}${CLEAR}"
-		alert
+		echo -e "[${RED}FAILED${CLEAR}] ${FUNCNAME[1]}"
+		echo -e
+		echo -e "  ${MAGENTA}File.....: ${basefile}, Line: ${baseline}${CLEAR}"
+		echo -e
+		echo -e "  ${CYAN}Expected.: ${expected}${CLEAR}"
+		echo -e "  ${RED}Actual...: ${actual}${CLEAR}"
+		echo -e
 		return 1
 	fi
 	

@@ -1,0 +1,8 @@
+export CLEAR="\e[0m"
+export WHITE="\e[0m"
+export RED="\e[91m"
+export GREEN="\e[92m"
+export YELLOW="\e[93m"
+export BLUE="\e[94m"
+export MAGENTA="\e[95m"
+export CYAN="\e[96m"
