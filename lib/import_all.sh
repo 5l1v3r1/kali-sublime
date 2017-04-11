@@ -21,5 +21,3 @@ import_all() {
 }
 
 import_all "lib"
-
-
