@@ -4,39 +4,7 @@ source lib/import_all.sh
 
 import_all "tests/lib"
 
-# Tests for lib/cli/colors.sh
-test_colors_clear_equals_clear
-test_colors_white_equals_white
-test_colors_red_equals_red
-test_colors_green_equals_green
-test_colors_yellow_equals_yellow
-test_colors_blue_equals_blue
-test_colors_magenta_equals_magenta
-test_colors_cyan_equals_cyan
-
-# Tests for lib/cli/globals.sh
-test_globals_version_equals_version
-test_globals_verbose_equals_verbose
-test_globals_user_equals_arc
-test_globals_home_equals_home
-
-# Tests for lib/cli/styles.sh
-test_styles_normal_equals_normal
-test_styles_bold_equals_bold
-test_styles_underline_equals_underline
-test_styles_blink_equals_blink
-test_styles_tick_equals_tick
-
-# Tests for lib/queries
-test_is_dir_exist_true
-test_is_dir_exist_not_true
-test_is_arguments_1_true
-test_is_arguments_1_not_true
-test_is_empty_true
-test_is_empty_not_true
-test_is_file_exist_true
-test_is_file_exist_not_true
-test_is_link_exist_true
-test_is_link_exist_not_true
-test_is_verbose_true
-test_is_verbose_not_true
+test_colors
+test_globals
+test_styles
+test_queries
